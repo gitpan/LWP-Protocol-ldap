@@ -1,0 +1,21 @@
+---
+name: LWP-Protocol-ldap
+version: 1.12
+author:
+  - 'Jef Le_Ponot <jef_le_ponot@voila.fr>'
+abstract: "The great new LWP::Protocol::ldap!"
+license: perl
+build_requires:
+  Test::More: 0
+configure_requires:
+  Module::Build: 0.340201
+generated_by: Module::Build version 0.340201
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+provides:
+  LWP::Protocol::ldap:
+    file: lib/LWP/Protocol/ldap.pm
+    version: 1.12
+resources:
+  license: http://dev.perl.org/licenses/
